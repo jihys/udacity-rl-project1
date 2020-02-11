@@ -110,9 +110,9 @@ For the Training, I used a p2.xlarge type AWS EC2 instance (Ubuntu based Deep Le
 
 ### Instructions
 
-Follow the instructions in `Project1_Navigation.ipynb` to get started with training your own agent!  There you will find how to call agent with different DQN algorithms. 
+Follow the instructions in `Project1_Navigation.ipynb` to get started with training your own agent!  There you will find how to call agent with different DQN algorithms. I used DQN, Dueling DQN, Double DQN for this project. 
 
-`model.py/` defines neural network that estimates Q values
+`model.py/` defines neural network that estimates Q values. Change the number of hidden layers and nodes as you wish.
 
 `dqn_agent.py` includes Agent class and Replay Buffer class that is used to interact and train agent. This code contains code that does followings:
 
